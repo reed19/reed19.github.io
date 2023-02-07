@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Red-X Redirect</title>
+	<style type="text/css">
+		span {
+			display: block;
+			width: fit-content;
+			margin: auto;
+			font-size: 19px;
+			font-family: sans-serif;
+		}
+		img {
+			display: block;
+			max-width: 100%;
+			margin: auto;
+		}
+	</style>
+</head>
+<body>
+	<span>Redirecting...</span>
+</body>
+<script type="text/javascript">
+	var url = "http://btw.monster/" + window.location.hash.substr(1);
+	window.location.href = url;
+</script>
+</html>
